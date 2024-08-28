@@ -20,7 +20,7 @@ WeatherApp() {
     return(
         <div style={{textAlign:"center"}}>
             <h1>Weather App by Arjun</h1>
-            <Searchbox updateinfo={updateinfo} />
+            <Searchbox updateinfo={updateinfo}/>
             <InfoBox info={weatherinfo}/>
           
         </div>
